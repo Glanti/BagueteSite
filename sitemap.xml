@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://baguete-tula.example/</loc><priority>1.0</priority></url>
+
+  <url><loc>https://baguete-tula.example/catalog/coffee.html</loc><priority>0.9</priority></url>
+  <url><loc>https://baguete-tula.example/catalog/food.html</loc><priority>0.9</priority></url>
+  <url><loc>https://baguete-tula.example/catalog/desserts.html</loc><priority>0.9</priority></url>
+  <url><loc>https://baguete-tula.example/catalog/takeaway.html</loc><priority>0.8</priority></url>
+
+  <url><loc>https://baguete-tula.example/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://baguete-tula.example/contacts.html</loc><priority>0.8</priority></url>
+  <url><loc>https://baguete-tula.example/faq.html</loc><priority>0.7</priority></url>
+  <url><loc>https://baguete-tula.example/news.html</loc><priority>0.7</priority></url>
+  <url><loc>https://baguete-tula.example/blog.html</loc><priority>0.7</priority></url>
+
+  <url><loc>https://baguete-tula.example/prices.html</loc><priority>0.8</priority></url>
+  <url><loc>https://baguete-tula.example/promo.html</loc><priority>0.7</priority></url>
+  <url><loc>https://baguete-tula.example/booking.html</loc><priority>0.8</priority></url>
+
+  <url><loc>https://baguete-tula.example/sitemap.html</loc><priority>0.3</priority></url>
+  <url><loc>https://baguete-tula.example/privacy.html</loc><priority>0.3</priority></url>
+</urlset>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Акции и скидки — кофейня Baguete | Тула</title>
+  <meta name="description" content="Акции и скидки кофейни Baguete: комбо-предложения, скидки утром, программа лояльности.">
+  <link rel="canonical" href="https://baguete-tula.example/promo.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="Baguete">baguete<span>.</span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="catalog/coffee.html">Кофе</a>
+      <a href="catalog/food.html">Еда</a>
+      <a href="catalog/desserts.html">Десерты</a>
+      <a href="prices.html">Цены</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="nav-btn" href="booking.html">Забронировать</a>
+    <button class="burger" aria-label="Открыть меню">☰</button>
+  </div>
+  <div class="mobile-nav">
+    <a href="catalog/coffee.html">Кофе</a>
+    <a href="catalog/food.html">Еда</a>
+    <a href="catalog/desserts.html">Десерты</a>
+    <a href="catalog/takeaway.html">С собой</a>
+    <a href="prices.html">Цены</a>
+    <a href="promo.html">Акции</a>
+    <a href="booking.html">Бронирование</a>
+    <a href="about.html">О нас</a>
+    <a href="news.html">Новости</a>
+    <a href="blog.html">Блог</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="sitemap.html">Карта сайта</a>
+  </div>
+</header>
+
+<main class="content-page">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="index.html">Главная</a> / <span>Акции</span></nav>
+
+    <h1>Акции и скидки</h1>
+    <p>Специальные предложения для наших гостей.</p>
+
+    <div class="cards-grid">
+      <article class="card"><div class="date">Утро</div><h3>−20% до 10:00</h3><p>Скидка на любой кофе при заказе до 10 утра.</p></article>
+      <article class="card"><div class="date">Комбо</div><h3>Кофе + круассан = 350 ₽</h3><p>Капучино и свежий круассан по специальной цене.</p></article>
+      <article class="card"><div class="date">Лояльность</div><h3>6-й кофе в подарок</h3><p>Собирайте отметки в нашей карте лояльности.</p></article>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo light" href="index.html">baguete<span>.</span></a>
+      <p class="footer-about">Кофейня в центре Тулы. Кофе, выпечка, завтраки.</p>
+    </div>
+    <div>
+      <h4>Меню</h4>
+      <ul>
+        <li><a href="catalog/coffee.html">Кофе</a></li>
+        <li><a href="catalog/food.html">Еда</a></li>
+        <li><a href="catalog/desserts.html">Десерты</a></li>
+        <li><a href="catalog/takeaway.html">С собой</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Информация</h4>
+      <ul>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="promo.html">Акции</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Контакты</h4>
+      <ul>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="booking.html">Бронирование</a></li>
+        <li><a href="tel:+70000000000">+7 (___) ___-__-__</a></li>
+        <li>г. Тула, Бондаренко 13</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-row">
+    <span>© 2026 Baguete · Учебный проект</span>
+    <div>
+      <a href="sitemap.html">Карта сайта</a> ·
+      <a href="privacy.html">Политика</a> ·
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const b=document.querySelector('.burger'),m=document.querySelector('.mobile-nav');
+if(b){b.addEventListener('click',()=>m.classList.toggle('open'));}
+m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>m.classList.remove('open')));
+</script>
+</body>
+</html>

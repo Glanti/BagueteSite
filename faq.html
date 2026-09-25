@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ — частые вопросы о кофейне Baguete | Тула</title>
+  <meta name="description" content="Ответы на частые вопросы о кофейне Baguete: работа, меню, бронирование, кофе с собой, оплата.">
+  <link rel="canonical" href="https://baguete-tula.example/faq.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="Baguete">baguete<span>.</span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="catalog/coffee.html">Кофе</a>
+      <a href="catalog/food.html">Еда</a>
+      <a href="catalog/desserts.html">Десерты</a>
+      <a href="prices.html">Цены</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="nav-btn" href="booking.html">Забронировать</a>
+    <button class="burger" aria-label="Открыть меню">☰</button>
+  </div>
+  <div class="mobile-nav">
+    <a href="catalog/coffee.html">Кофе</a>
+    <a href="catalog/food.html">Еда</a>
+    <a href="catalog/desserts.html">Десерты</a>
+    <a href="catalog/takeaway.html">С собой</a>
+    <a href="prices.html">Цены</a>
+    <a href="promo.html">Акции</a>
+    <a href="booking.html">Бронирование</a>
+    <a href="about.html">О нас</a>
+    <a href="news.html">Новости</a>
+    <a href="blog.html">Блог</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="sitemap.html">Карта сайта</a>
+  </div>
+</header>
+
+<main class="content-page">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="index.html">Главная</a> / <span>FAQ</span></nav>
+
+    <h1>Частые вопросы</h1>
+
+    <div class="faq-list">
+      <details><summary>Можно ли прийти с ноутбуком? <span>+</span></summary><p>Да, у нас есть розетки и Wi-Fi. Можно спокойно работать.</p></details>
+      <details><summary>Есть ли завтраки? <span>+</span></summary><p>Да, завтраки подаём с открытия до 12:00.</p></details>
+      <details><summary>Можно ли заказать кофе с собой? <span>+</span></summary><p>Конечно. Любой напиток и выпечку можно взять с собой.</p></details>
+      <details><summary>Принимаете ли карты? <span>+</span></summary><p>Да, принимаем наличные и банковские карты.</p></details>
+      <details><summary>Можно ли забронировать столик? <span>+</span></summary><p>Да, через страницу <a href="booking.html" style="color:var(--accent)">бронирования</a> или по телефону.</p></details>
+      <details><summary>Есть ли веганские позиции? <span>+</span></summary><p>Да, есть напитки на растительном молоке и несколько десертов без животных продуктов.</p></details>
+    </div>
+
+    <div style="margin-top:40px;">
+      <a class="btn btn-dark" href="contacts.html">Задать вопрос →</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo light" href="index.html">baguete<span>.</span></a>
+      <p class="footer-about">Кофейня в центре Тулы. Кофе, выпечка, завтраки.</p>
+    </div>
+    <div>
+      <h4>Меню</h4>
+      <ul>
+        <li><a href="catalog/coffee.html">Кофе</a></li>
+        <li><a href="catalog/food.html">Еда</a></li>
+        <li><a href="catalog/desserts.html">Десерты</a></li>
+        <li><a href="catalog/takeaway.html">С собой</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Информация</h4>
+      <ul>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="promo.html">Акции</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Контакты</h4>
+      <ul>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="booking.html">Бронирование</a></li>
+        <li><a href="tel:+70000000000">+7 (___) ___-__-__</a></li>
+        <li>г. Тула, Бондаренко 13</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-row">
+    <span>© 2026 Baguete · Учебный проект</span>
+    <div>
+      <a href="sitemap.html">Карта сайта</a> ·
+      <a href="privacy.html">Политика</a> ·
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const b=document.querySelector('.burger'),m=document.querySelector('.mobile-nav');
+if(b){b.addEventListener('click',()=>m.classList.toggle('open'));}
+m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>m.classList.remove('open')));
+</script>
+</body>
+</html>
